@@ -1,0 +1,8 @@
+prefix=/home/rebot801/LIuXin/ICCUB_ws/install
+
+Name: Human_pose
+Description: Description of Human_pose
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

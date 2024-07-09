@@ -1,0 +1,8 @@
+prefix=/home/rebot801/LIuXin/ICCUB_ws/install
+
+Name: dynamic_biped
+Description: Description of dynamic_biped
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: rospy message_runtime

@@ -1,0 +1,2 @@
+Human_pose:dynamic_biped
+-DCATKIN_DEVEL_PREFIX=/home/rebot801/LIuXin/ICCUB_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rebot801/LIuXin/ICCUB_ws/install -G Unix Makefiles
