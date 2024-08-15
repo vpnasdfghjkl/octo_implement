@@ -80,9 +80,10 @@ if __name__ == "__main__":
 
     joint_positions = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-    src_path = "/home/rebot801/wangwei/数据集/dest"
+    src_path = "/home/rebot801/wangwei/dest"
+
     num = 1
-    count = 10
+    count = 50
 
     for file_path in os.listdir(src_path):
 
@@ -114,7 +115,7 @@ if __name__ == "__main__":
                 # else:
                 #     call_control_end_hand_service(left_hand_position=[0, 0, 0, 0, 0, 0], right_hand_position=[0, 70, 20, 20, 20, 20])
 
-                time.sleep(0.5)
+                time.sleep(0.25)
 
                 num = num + 1
         print("^^^^^^^^^^^^^^^^^^")

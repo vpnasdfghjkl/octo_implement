@@ -43,158 +43,175 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rebot801/LIuXin/ICCUB_ws/src
+CMAKE_SOURCE_DIR = /home/lab/hx/ICCUB_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rebot801/LIuXin/ICCUB_ws/build
+CMAKE_BINARY_DIR = /home/lab/hx/ICCUB_ws/build
 
 # Utility rule file for dynamic_biped_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/progress.make
 
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/walkCommand.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/ECJointMotordata.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotQVTau.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmQVVD.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotTorsoState.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotPhase.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmInfo.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHandPosition.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHeadMotionData.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotation.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/QuaternionArray.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotationEular.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangePhases.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvClearPositionCMD.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvchangeCtlMode.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeArmCtrlMode.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeAMBACCtrlMode.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangeJoller.js
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/controlEndHand.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/walkCommand.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/ECJointMotordata.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotQVTau.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmQVVD.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotTorsoState.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotPhase.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmInfo.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHandPosition.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHeadMotionData.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotation.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/QuaternionArray.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotationEular.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/armHandPose.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/recordArmHandPose.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangePhases.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvClearPositionCMD.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvchangeCtlMode.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeArmCtrlMode.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeAMBACCtrlMode.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangeJoller.js
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/controlEndHand.js
 
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/walkCommand.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/walkCommand.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from dynamic_biped/walkCommand.msg"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/walkCommand.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/walkCommand.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from dynamic_biped/walkCommand.msg"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/ECJointMotordata.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/ECJointMotordata.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from dynamic_biped/ECJointMotordata.msg"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/ECJointMotordata.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/ECJointMotordata.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from dynamic_biped/ECJointMotordata.msg"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotQVTau.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotQVTau.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from dynamic_biped/robotQVTau.msg"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotQVTau.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotQVTau.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from dynamic_biped/robotQVTau.msg"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmQVVD.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmQVVD.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from dynamic_biped/robotArmQVVD.msg"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmQVVD.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmQVVD.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmQVVD.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from dynamic_biped/robotArmQVVD.msg"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotTorsoState.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotTorsoState.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotTorsoState.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from dynamic_biped/robotTorsoState.msg"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotTorsoState.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotTorsoState.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotTorsoState.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from dynamic_biped/robotTorsoState.msg"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotPhase.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotPhase.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from dynamic_biped/robotPhase.msg"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotPhase.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotPhase.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from dynamic_biped/robotPhase.msg"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmInfo.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmInfo.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmInfo.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from dynamic_biped/robotArmInfo.msg"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmInfo.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmInfo.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmInfo.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from dynamic_biped/robotArmInfo.msg"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHandPosition.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHandPosition.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHandPosition.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from dynamic_biped/robotHandPosition.msg"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHandPosition.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHandPosition.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHandPosition.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from dynamic_biped/robotHandPosition.msg"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHeadMotionData.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHeadMotionData.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from dynamic_biped/robotHeadMotionData.msg"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHeadMotionData.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHeadMotionData.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from dynamic_biped/robotHeadMotionData.msg"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotation.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotation.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotation.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from dynamic_biped/handRotation.msg"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotation.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotation.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotation.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from dynamic_biped/handRotation.msg"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/QuaternionArray.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/QuaternionArray.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/QuaternionArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from dynamic_biped/QuaternionArray.msg"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/QuaternionArray.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/QuaternionArray.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/QuaternionArray.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from dynamic_biped/QuaternionArray.msg"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotationEular.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotationEular.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotationEular.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from dynamic_biped/handRotationEular.msg"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotationEular.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotationEular.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotationEular.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from dynamic_biped/handRotationEular.msg"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangePhases.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangePhases.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from dynamic_biped/srvChangePhases.srv"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/armHandPose.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/armHandPose.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from dynamic_biped/armHandPose.msg"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvClearPositionCMD.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvClearPositionCMD.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from dynamic_biped/srvClearPositionCMD.srv"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/recordArmHandPose.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/recordArmHandPose.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/recordArmHandPose.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/recordArmHandPose.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from dynamic_biped/recordArmHandPose.msg"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvchangeCtlMode.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvchangeCtlMode.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from dynamic_biped/srvchangeCtlMode.srv"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangePhases.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangePhases.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from dynamic_biped/srvChangePhases.srv"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeArmCtrlMode.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeArmCtrlMode.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from dynamic_biped/changeArmCtrlMode.srv"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvClearPositionCMD.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvClearPositionCMD.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from dynamic_biped/srvClearPositionCMD.srv"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeAMBACCtrlMode.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeAMBACCtrlMode.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Javascript code from dynamic_biped/changeAMBACCtrlMode.srv"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvchangeCtlMode.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvchangeCtlMode.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Javascript code from dynamic_biped/srvchangeCtlMode.srv"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangeJoller.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangeJoller.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Javascript code from dynamic_biped/srvChangeJoller.srv"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeArmCtrlMode.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeArmCtrlMode.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Javascript code from dynamic_biped/changeArmCtrlMode.srv"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/controlEndHand.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/controlEndHand.js: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Javascript code from dynamic_biped/controlEndHand.srv"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeAMBACCtrlMode.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeAMBACCtrlMode.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Javascript code from dynamic_biped/changeAMBACCtrlMode.srv"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv
+
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangeJoller.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangeJoller.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Javascript code from dynamic_biped/srvChangeJoller.srv"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv
+
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/controlEndHand.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/controlEndHand.js: /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Javascript code from dynamic_biped/controlEndHand.srv"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv
 
 dynamic_biped_generate_messages_nodejs: dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/walkCommand.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/ECJointMotordata.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotQVTau.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmQVVD.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotTorsoState.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotPhase.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmInfo.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHandPosition.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHeadMotionData.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotation.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/QuaternionArray.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotationEular.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangePhases.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvClearPositionCMD.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvchangeCtlMode.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeArmCtrlMode.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeAMBACCtrlMode.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangeJoller.js
-dynamic_biped_generate_messages_nodejs: /home/rebot801/LIuXin/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/controlEndHand.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/walkCommand.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/ECJointMotordata.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotQVTau.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmQVVD.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotTorsoState.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotPhase.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotArmInfo.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHandPosition.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/robotHeadMotionData.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotation.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/QuaternionArray.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/handRotationEular.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/armHandPose.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/msg/recordArmHandPose.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangePhases.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvClearPositionCMD.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvchangeCtlMode.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeArmCtrlMode.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/changeAMBACCtrlMode.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/srvChangeJoller.js
+dynamic_biped_generate_messages_nodejs: /home/lab/hx/ICCUB_ws/devel/share/gennodejs/ros/dynamic_biped/srv/controlEndHand.js
 dynamic_biped_generate_messages_nodejs: dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/build.make
 
 .PHONY : dynamic_biped_generate_messages_nodejs
@@ -205,10 +222,10 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/build: dynam
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/build
 
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/clean:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/clean
 
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/depend:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rebot801/LIuXin/ICCUB_ws/src /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped /home/rebot801/LIuXin/ICCUB_ws/build /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lab/hx/ICCUB_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lab/hx/ICCUB_ws/src /home/lab/hx/ICCUB_ws/src/dynamic_biped /home/lab/hx/ICCUB_ws/build /home/lab/hx/ICCUB_ws/build/dynamic_biped /home/lab/hx/ICCUB_ws/build/dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/depend
 

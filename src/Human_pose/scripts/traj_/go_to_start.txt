@@ -1,0 +1,20 @@
+def go_to_start(robot_instance):
+    start_traj_txt_path=FLAGS.start_traj_txt_path
+    with open(start_traj_txt_path, 'r') as f:
+        lines = f.readlines()
+        # example line:[1721453954.4682379] [-0.011260911328125012, -0.032774646324176294, 0.010934900999376768, -0.010906881191067398, -3.92324055631966, 0.6438061314323509, -4.359844068453743, -9.344588960334962, -14.195518408431509, -41.38598418663083, -43.33137265347529, 4.645285919214266, -33.10302521671483, 3.5093105509978906]
+        start_traj = []
+        for line in lines:
+            import re
+            pattern=r'\[(.*?)\]'
+            matchs=re.findall(pattern,line)
+            array_str=matchs[1]
+            line = array_str[1:-1]
+            line = line.split(", ")
+            start_traj.append([float(x) for x in line])
+
+    for step in start_traj:
+        # all_joint= [0] * 14
+        # all_joint[7:14]=step[:7]
+        robot_instance.set_arm_traj_position(step)
+        time.sleep(0.015)

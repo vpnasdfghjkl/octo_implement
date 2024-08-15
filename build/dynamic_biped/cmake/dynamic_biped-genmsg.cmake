@@ -1,8 +1,8 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "dynamic_biped: 13 messages, 7 services")
+message(STATUS "dynamic_biped: 15 messages, 7 services")
 
-set(MSG_I_FLAGS "-Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,99 +17,109 @@ add_custom_target(dynamic_biped_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg" ""
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg" ""
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg" ""
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg" "geometry_msgs/Vector3"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg" "geometry_msgs/Vector3"
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg" ""
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg" ""
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg" "geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg" "geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg" "geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg" "geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg" "geometry_msgs/Vector3"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg" "geometry_msgs/Vector3"
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg" ""
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg" "std_msgs/Header:dynamic_biped/armHandPose"
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv" ""
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv" ""
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv" ""
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv" ""
 )
 
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv" NAME_WE)
 add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv" ""
+)
+
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv" NAME_WE)
+add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv" ""
+)
+
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv" NAME_WE)
+add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_biped" "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv" ""
 )
 
 #
@@ -119,117 +129,129 @@ add_custom_target(_dynamic_biped_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_cpp(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_cpp(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_cpp(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_cpp(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_cpp(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 
 ### Generating Services
 _generate_srv_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_cpp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_biped
@@ -247,43 +269,47 @@ add_custom_target(dynamic_biped_generate_messages_cpp
 add_dependencies(dynamic_biped_generate_messages dynamic_biped_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv" NAME_WE)
+add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv" NAME_WE)
+add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_cpp _dynamic_biped_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -296,117 +322,129 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS dynamic_biped_generate_messages_cpp
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_eus(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_eus(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_eus(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_eus(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_eus(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 
 ### Generating Services
 _generate_srv_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_eus(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_biped
@@ -424,43 +462,47 @@ add_custom_target(dynamic_biped_generate_messages_eus
 add_dependencies(dynamic_biped_generate_messages dynamic_biped_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv" NAME_WE)
+add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv" NAME_WE)
+add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_eus _dynamic_biped_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -473,117 +515,129 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS dynamic_biped_generate_messages_eus
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_lisp(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_lisp(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_lisp(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_lisp(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_lisp(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 
 ### Generating Services
 _generate_srv_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_lisp(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_biped
@@ -601,43 +655,47 @@ add_custom_target(dynamic_biped_generate_messages_lisp
 add_dependencies(dynamic_biped_generate_messages dynamic_biped_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv" NAME_WE)
+add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv" NAME_WE)
+add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_lisp _dynamic_biped_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -650,117 +708,129 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS dynamic_biped_generate_messages_lis
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_nodejs(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_nodejs(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_nodejs(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_nodejs(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_nodejs(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 
 ### Generating Services
 _generate_srv_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_nodejs(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_biped
@@ -778,43 +848,47 @@ add_custom_target(dynamic_biped_generate_messages_nodejs
 add_dependencies(dynamic_biped_generate_messages dynamic_biped_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv" NAME_WE)
+add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv" NAME_WE)
+add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_nodejs _dynamic_biped_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -827,117 +901,129 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS dynamic_biped_generate_messages_nod
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
-)
-_generate_msg_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_py(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_py(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_py(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 _generate_msg_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_py(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
+)
+_generate_msg_py(dynamic_biped
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 
 ### Generating Services
 _generate_srv_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
 )
 _generate_srv_py(dynamic_biped
-  "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv"
+  "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_biped
@@ -955,43 +1041,47 @@ add_custom_target(dynamic_biped_generate_messages_py
 add_dependencies(dynamic_biped_generate_messages dynamic_biped_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv" NAME_WE)
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv" NAME_WE)
+add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv" NAME_WE)
+add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv" NAME_WE)
 add_dependencies(dynamic_biped_generate_messages_py _dynamic_biped_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

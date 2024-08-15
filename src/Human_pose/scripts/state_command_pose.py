@@ -87,7 +87,7 @@ class MyKuavo(object):
         """捕获摄像头数据，是一个多线程程序，一直在拿取摄像头数据并且更新"""
         # depth_image, color_image = camera_main(pipeline=pipeline)
         color_image = camera_main(pipeline=pipeline)
-        # cv2.imshow("color_img", color_image)
+        cv2.imshow("color_img", color_image)
         #
         # cv2.waitKey(10)
 
@@ -117,7 +117,7 @@ class MyKuavo(object):
         cv2.imshow("color_img", self.color_image)
         cv2.waitKey(5)
 
-        camera_path = f'{state_save_path}/../camera/{time.time()}.png '
+        camera_path = f'{state_save_path}/../camera/{time.time()}.png'
         cv2.imwrite(camera_path, self.color_image)
 
         count_state = count_state + 1
@@ -229,4 +229,5 @@ if __name__ == "__main__":
     if status == 2:
 
         main(file_names)
+
 

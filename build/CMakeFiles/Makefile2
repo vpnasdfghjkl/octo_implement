@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rebot801/LIuXin/ICCUB_ws/src
+CMAKE_SOURCE_DIR = /home/lab/hx/ICCUB_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rebot801/LIuXin/ICCUB_ws/build
+CMAKE_BINARY_DIR = /home/lab/hx/ICCUB_ws/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -121,6 +121,7 @@ dynamic_biped/clean: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_c
 dynamic_biped/clean: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/clean
 dynamic_biped/clean: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/clean
 dynamic_biped/clean: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/clean
+dynamic_biped/clean: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/clean
 dynamic_biped/clean: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/clean
 dynamic_biped/clean: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/clean
 dynamic_biped/clean: dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/clean
@@ -152,6 +153,7 @@ dynamic_biped/clean: dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eu
 dynamic_biped/clean: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/clean
 dynamic_biped/clean: dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/clean
 dynamic_biped/clean: dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/clean
+dynamic_biped/clean: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/clean
 dynamic_biped/clean: dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 dynamic_biped/clean: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/clean
 dynamic_biped/clean: dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/clean
@@ -227,14 +229,14 @@ gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest.dir/clean
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target doxygen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target doxygen"
 .PHONY : CMakeFiles/doxygen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doxygen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/doxygen.dir/rule
 
 # Convenience name for target.
@@ -254,14 +256,14 @@ CMakeFiles/doxygen.dir/clean:
 CMakeFiles/run_tests.dir/all:
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target run_tests"
 .PHONY : CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -281,14 +283,14 @@ CMakeFiles/run_tests.dir/clean:
 CMakeFiles/clean_test_results.dir/all:
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/depend
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target clean_test_results"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target clean_test_results"
 .PHONY : CMakeFiles/clean_test_results.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_test_results.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/clean_test_results.dir/rule
 
 # Convenience name for target.
@@ -308,14 +310,14 @@ CMakeFiles/clean_test_results.dir/clean:
 CMakeFiles/tests.dir/all:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -335,14 +337,14 @@ CMakeFiles/tests.dir/clean:
 CMakeFiles/download_extra_data.dir/all:
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/depend
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target download_extra_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target download_extra_data"
 .PHONY : CMakeFiles/download_extra_data.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/download_extra_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/download_extra_data.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : CMakeFiles/download_extra_data.dir/rule
 
 # Convenience name for target.
@@ -359,18 +361,18 @@ CMakeFiles/download_extra_data.dir/clean:
 # Target rules for target gtest/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmock.dir/all
+gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=95,96 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=95,96 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -390,14 +392,14 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=93,94 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=94 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -417,14 +419,14 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googletest/CMakeFiles/gtest_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=99,100 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=99,100 "Built target gtest_main"
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -444,14 +446,14 @@ gtest/googletest/CMakeFiles/gtest_main.dir/clean:
 gtest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=97,98 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=97,98 "Built target gtest"
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -473,6 +475,7 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_bip
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/all
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/all
@@ -485,20 +488,21 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_bip
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/all
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/all
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92 "Built target dynamic_biped_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target dynamic_biped_generate_messages_py"
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -520,6 +524,7 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/all
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/all
@@ -532,20 +537,21 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/all
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/all
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72 "Built target dynamic_biped_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73 "Built target dynamic_biped_generate_messages_nodejs"
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -565,14 +571,14 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/clean:
 dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/all: dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target dynamic_biped_genlisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target dynamic_biped_genlisp"
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/rule
 
 # Convenience name for target.
@@ -592,14 +598,14 @@ dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/clean:
 dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/all: dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target dynamic_biped_geneus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target dynamic_biped_geneus"
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/rule
 
 # Convenience name for target.
@@ -621,6 +627,7 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_bi
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/all
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/all
@@ -633,20 +640,21 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_bi
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/all
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/all
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36 "Built target dynamic_biped_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37 "Built target dynamic_biped_generate_messages_eus"
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -666,14 +674,14 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/clean:
 dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/all: dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target dynamic_biped_gencpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target dynamic_biped_gencpp"
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/rule
 
 # Convenience name for target.
@@ -693,14 +701,14 @@ dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/clean:
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_controlEndHand"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_controlEndHand"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/rule
 
 # Convenience name for target.
@@ -720,14 +728,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndH
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/rule
 
 # Convenience name for target.
@@ -747,14 +755,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBAC
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_changeArmCtrlMode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_changeArmCtrlMode"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/rule
 
 # Convenience name for target.
@@ -774,14 +782,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCt
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_srvchangeCtlMode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_srvchangeCtlMode"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/rule
 
 # Convenience name for target.
@@ -801,14 +809,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCt
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_srvClearPositionCMD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_srvClearPositionCMD"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/rule
 
 # Convenience name for target.
@@ -822,20 +830,47 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPos
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/clean
 
 #=============================================================================
+# Target rules for target dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir
+
+# All Build rule for target.
+dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/all:
+	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/depend
+	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_armHandPose"
+.PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/all
+
+# Build rule for subdir invocation for target.
+dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
+.PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/rule
+
+# Convenience name for target.
+_dynamic_biped_generate_messages_check_deps_armHandPose: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/rule
+
+.PHONY : _dynamic_biped_generate_messages_check_deps_armHandPose
+
+# clean rule for target.
+dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/clean:
+	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/clean
+.PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/clean
+
+#=============================================================================
 # Target rules for target dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir
 
 # All Build rule for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_handRotation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_handRotation"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/rule
 
 # Convenience name for target.
@@ -855,14 +890,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotatio
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_robotHeadMotionData"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_robotHeadMotionData"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/rule
 
 # Convenience name for target.
@@ -882,14 +917,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMo
 dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/all: dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/all
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target dynamic_biped_genpy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target dynamic_biped_genpy"
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/rule
 
 # Convenience name for target.
@@ -909,14 +944,14 @@ dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/clean:
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_srvChangePhases"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_srvChangePhases"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/rule
 
 # Convenience name for target.
@@ -936,14 +971,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePh
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -963,14 +998,14 @@ dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
 dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -990,14 +1025,14 @@ dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1017,14 +1052,14 @@ dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1044,14 +1079,14 @@ dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_robotHandPosition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_robotHandPosition"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/rule
 
 # Convenience name for target.
@@ -1071,14 +1106,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPo
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1098,14 +1133,14 @@ dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_robotArmQVVD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_robotArmQVVD"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/rule
 
 # Convenience name for target.
@@ -1125,14 +1160,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVV
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_walkCommand"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_walkCommand"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/rule
 
 # Convenience name for target.
@@ -1152,14 +1187,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_handRotationEular"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_handRotationEular"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/rule
 
 # Convenience name for target.
@@ -1179,14 +1214,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotatio
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1206,14 +1241,14 @@ dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
 dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1233,14 +1268,14 @@ dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1260,14 +1295,14 @@ dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_QuaternionArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_QuaternionArray"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/rule
 
 # Convenience name for target.
@@ -1287,14 +1322,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionA
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1314,14 +1349,14 @@ dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
 dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1341,14 +1376,14 @@ dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/clean:
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_robotQVTau"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_robotQVTau"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/rule
 
 # Convenience name for target.
@@ -1368,14 +1403,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1397,6 +1432,7 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_bi
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/all
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/all
@@ -1408,6 +1444,7 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_bi
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/all
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/all
@@ -1415,14 +1452,14 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_bi
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/all
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target dynamic_biped_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target dynamic_biped_generate_messages_cpp"
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1442,14 +1479,14 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/clean:
 dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1469,14 +1506,14 @@ dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
 dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1496,14 +1533,14 @@ dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1523,14 +1560,14 @@ dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1550,14 +1587,14 @@ dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1577,14 +1614,14 @@ dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1604,14 +1641,14 @@ dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_srvChangeJoller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_srvChangeJoller"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/rule
 
 # Convenience name for target.
@@ -1635,14 +1672,14 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/all: dynamic_biped/
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/all: dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target dynamic_biped_generate_messages"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target dynamic_biped_generate_messages"
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 93
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -1664,6 +1701,7 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_b
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/all
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/all
@@ -1675,6 +1713,7 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_b
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/all
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/all
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/all
@@ -1682,14 +1721,14 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_b
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/all
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54 "Built target dynamic_biped_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55 "Built target dynamic_biped_generate_messages_lisp"
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1703,20 +1742,47 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/clean:
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/clean
 
 #=============================================================================
+# Target rules for target dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir
+
+# All Build rule for target.
+dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/all:
+	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/depend
+	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_recordArmHandPose"
+.PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/all
+
+# Build rule for subdir invocation for target.
+dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
+.PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/rule
+
+# Convenience name for target.
+_dynamic_biped_generate_messages_check_deps_recordArmHandPose: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/rule
+
+.PHONY : _dynamic_biped_generate_messages_check_deps_recordArmHandPose
+
+# clean rule for target.
+dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/clean:
+	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/clean
+.PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/clean
+
+#=============================================================================
 # Target rules for target dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1736,14 +1802,14 @@ dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_ECJointMotordata"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_ECJointMotordata"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/rule
 
 # Convenience name for target.
@@ -1763,14 +1829,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMoto
 dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/all: dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/all
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target dynamic_biped_gennodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target dynamic_biped_gennodejs"
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -1790,14 +1856,14 @@ dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/clean:
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1817,14 +1883,14 @@ dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_robotTorsoState"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_robotTorsoState"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/rule
 
 # Convenience name for target.
@@ -1844,14 +1910,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoS
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_robotPhase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_robotPhase"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/rule
 
 # Convenience name for target.
@@ -1871,14 +1937,14 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1898,14 +1964,14 @@ dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/all:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/depend
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_robotArmInfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num= "Built target _dynamic_biped_generate_messages_check_deps_robotArmInfo"
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/all
 
 # Build rule for subdir invocation for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/rule
 
 # Convenience name for target.

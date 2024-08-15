@@ -45,7 +45,6 @@ def call_control_end_hand_service(left_hand_position: List[float], right_hand_po
         return False
 
 
-
 if __name__ == "__main__":
 
     # 初始化节点
@@ -96,7 +95,6 @@ if __name__ == "__main__":
                 call_control_end_hand_service(left_hand_position=[0, 0, 0, 0, 0, 0], right_hand_position=[0, 30, 80, 80, 80, 80])
             else:
                 call_control_end_hand_service(left_hand_position=[0, 0, 0, 0, 0, 0], right_hand_position=[0, 70, 20, 20, 20, 20])
-
 
             time.sleep(0.3)
 

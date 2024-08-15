@@ -12,6 +12,7 @@ import quaternion
 import numpy as np
 import rospy
 from dynamic_biped.srv import controlEndHand, controlEndHandRequest
+from math import fabs
 
 def build_rot(theta, rotation_axis):
     w = np.cos(theta * np.pi / 360)
@@ -295,7 +296,7 @@ class HandServer_2:
         return res
 
 
-    def get_finger_pose_2(self):
+    def get_finger_pose(self):
 
         """Get the finger pose of the hand"""
 
@@ -305,8 +306,8 @@ class HandServer_2:
         zhong_max = [-80, -100, -63]
         wu_max = [-80, -100, -80]
         xiao_max = [-76, -93, -74]
-        da_max_1 = [-60, -60]
-        da_max_0 = [-60]
+        da_max_1 = [-60, -25]
+        # da_max_0 = [-60]
 
         left_shi_1 = quaterion2degree(self.source_data[0]["Bones"][0])[0]
         left_shi_2 = quaterion2degree(self.source_data[0]["Bones"][1])[0]
@@ -325,14 +326,14 @@ class HandServer_2:
         left_da_2 = quaterion2degree(self.source_data[0]["Bones"][13])[1]
         left_da_3 = quaterion2degree(self.source_data[0]["Bones"][14])[1]
 
-        left_shi_combine = math.fabs(left_shi_1 + left_shi_2 + left_shi_3) / math.fabs(sum(shi_max[:5]))
+        left_shi_combine = math.fabs(left_shi_1 ) / math.fabs(sum(shi_max[:1]))
         left_zhong_combine = math.fabs(left_zhong_1 + left_zhong_2 + left_zhong_3) / math.fabs(sum(zhong_max))
         left_wu_combine = math.fabs(left_wu_1 + left_wu_2 + left_wu_3) / math.fabs(sum(wu_max))
         left_xiao_combine = math.fabs(left_xiao_1 + left_xiao_2 + left_xiao_3) / math.fabs(sum(xiao_max))
-        left_da_combine_1 = math.fabs(left_da_2 + left_da_3) / math.fabs(sum(da_max_1))
-        left_da_1 = 0 if left_da_1 > 0 else left_da_1
-        left_da_1 = -60 if left_da_1 < -60 else left_da_1
-        left_da_combine_0 = math.fabs(left_da_1) / sum(da_max_0)
+
+        left_da_2 = min(25, fabs(left_da_2))
+        left_da_combine_1 = math.fabs(left_da_3) / math.fabs(sum(da_max_1[:1]))
+        left_da_combine_0 = math.fabs(left_da_2) / fabs(sum(da_max_1[1:]))
 
         right_shi_1 = quaterion2degree(self.source_data[1]["Bones"][0])[0]
         right_shi_2 = quaterion2degree(self.source_data[1]["Bones"][1])[0]
@@ -350,25 +351,29 @@ class HandServer_2:
         right_da_2 = quaterion2degree(self.source_data[1]["Bones"][13])[1]
         right_da_3 = quaterion2degree(self.source_data[1]["Bones"][14])[1]
 
-        right_shi_combine = math.fabs(right_shi_1 + right_shi_2 + right_shi_3) / math.fabs(sum(shi_max[:3]))
+        right_shi_combine = math.fabs(right_shi_1) / math.fabs(sum(shi_max[:1]))
         right_zhong_combine = math.fabs(right_zhong_1 + right_zhong_2 + right_zhong_3) / math.fabs(sum(zhong_max))
         right_wu_combine = math.fabs(right_wu_1 + right_wu_2 + right_wu_3) / math.fabs(sum(wu_max))
         right_xiao_combine = math.fabs(right_xiao_1 + right_xiao_2 + right_xiao_3) / math.fabs(sum(xiao_max))
-        right_da_combine_1 = math.fabs(right_da_2 + right_da_3) / math.fabs(sum(da_max_1))
-        right_da_1 = 0 if right_da_1 > 0 else right_da_1
-        right_da_1 = -60 if right_da_1 < -60 else right_da_1
-        right_da_combine_0 = math.fabs(right_da_1) / sum(da_max_0)
+        right_da_combine_1 = math.fabs(right_da_3) / math.fabs(sum(da_max_1[:1]))
+
+        right_da_2 = min(25, fabs(right_da_2))
+        right_da_combine_1 = math.fabs(right_da_3) / sum(da_max_1[:1])
+        right_da_combine_0 = right_da_2 / sum(da_max_1[1:])
 
         res['left'] = [left_da_combine_1, left_da_combine_0, left_shi_combine, left_zhong_combine, left_wu_combine, left_xiao_combine]
         res['left'] = [math.fabs(i) * 100 for i in res['left']]
         res['right'] = [right_da_combine_1, right_da_combine_0, right_shi_combine, right_zhong_combine, right_wu_combine, right_xiao_combine]
         res['right'] = [math.fabs(i) * 100 for i in res['right']]
 
-        # left_da_euler = quaterion2degree(self.source_data[0]["Bones"][12])
-        # right_da_euler = quaterion2degree(self.source_data[1]["Bones"][12])
-        # print(left_da_euler, "\t", right_da_euler)
+
+        # print( quaterion2degree(self.source_data[0]["Bones"][13]))
+
+        
         # print(res)
+        # print(quaterion2degree(self.source_data[0]["Bones"][12]), )
         return res
+
 
     def print_test_data(self):
         z_180_oris = build_rot(theta=-180, rotation_axis=[0, 0, 1])
@@ -420,7 +425,7 @@ def show_data(hand_server):
         # print(hand_server.get_imu_data("right"))
         # print(hand_server.get_clamp_state())
         # print("")
-        res = hand_server.get_finger_pose_2()
+        res = hand_server.get_finger_pose()
 
         left_hand_position = res["left"]
         right_hand_position = res["right"]
@@ -444,7 +449,7 @@ if __name__ == '__main__':
 
     while not rospy.is_shutdown():
 
-        res = hand_server.get_finger_pose_2()
+        res = hand_server.get_finger_pose()
 
         left_hand_position = res["left"]
         left_hand_position = [int(i) for i in left_hand_position]

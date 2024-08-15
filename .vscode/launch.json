@@ -1,0 +1,23 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python 调试程序: 当前文件",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/home/lab/hx/ICCUB_ws/src/octo/examples/04_eval_finetuned_on_kuavo.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--checkpoint_weights_path=/media/lab/PortableSSD/ckpt/shenzhen/WRC_juice/Grab_Orange_withProprio_2window_20240814_000812",
+                // "--start_traj_txt_path=/home/lab/hx/traj_add.txt",
+                "--window_size=1",
+                "--proprio=False",
+                "--show_image=False",
+            ]
+        }
+    ]
+}
+

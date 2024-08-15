@@ -7,7 +7,7 @@ from .models import build_ACT_model, build_CNNMLP_model
 import IPython
 e = IPython.embed
 
-def get_args_parser():
+def get_args_parser(ckpt_dir):
     parser = argparse.ArgumentParser('Set transformer detector', add_help=False)
     parser.add_argument('--lr', default=1e-4, type=float) # will be overridden
     parser.add_argument('--lr_backbone', default=1e-5, type=float) # will be overridden
@@ -53,7 +53,7 @@ def get_args_parser():
     # repeat args in imitate_episodes just to avoid error. Will not be used
     parser.add_argument('--eval', action='store_true')
     parser.add_argument('--onscreen_render', action='store_true')
-    parser.add_argument('--ckpt_dir', default = '/home/rebot801/LIuXin/ckpt/')
+    parser.add_argument('--ckpt_dir', default = ckpt_dir)
 
     parser.add_argument('--policy_class', default="ACT")
     parser.add_argument('--task_name', default="801")
@@ -65,9 +65,8 @@ def get_args_parser():
 
     return parser
 
-
-def build_ACT_model_and_optimizer(args_override):
-    parser = argparse.ArgumentParser('DETR training and evaluation script', parents=[get_args_parser()])
+def build_ACT_model_and_optimizer(args_override, ckpt_dir):
+    parser = argparse.ArgumentParser('DETR training and evaluation script', parents=[get_args_parser(ckpt_dir=ckpt_dir)])
     args = parser.parse_args()
 
     for k, v in args_override.items():

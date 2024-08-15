@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rebot801/LIuXin/ICCUB_ws/src
+CMAKE_SOURCE_DIR = /home/lab/hx/ICCUB_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rebot801/LIuXin/ICCUB_ws/build
+CMAKE_BINARY_DIR = /home/lab/hx/ICCUB_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles /home/lab/hx/ICCUB_ws/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -426,6 +426,19 @@ _dynamic_biped_generate_messages_check_deps_srvClearPositionCMD: cmake_check_bui
 _dynamic_biped_generate_messages_check_deps_srvClearPositionCMD/fast:
 	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_srvClearPositionCMD/fast
+
+#=============================================================================
+# Target rules for targets named _dynamic_biped_generate_messages_check_deps_armHandPose
+
+# Build rule for target.
+_dynamic_biped_generate_messages_check_deps_armHandPose: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _dynamic_biped_generate_messages_check_deps_armHandPose
+.PHONY : _dynamic_biped_generate_messages_check_deps_armHandPose
+
+# fast build rule for target.
+_dynamic_biped_generate_messages_check_deps_armHandPose/fast:
+	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/build
+.PHONY : _dynamic_biped_generate_messages_check_deps_armHandPose/fast
 
 #=============================================================================
 # Target rules for targets named _dynamic_biped_generate_messages_check_deps_handRotation
@@ -831,6 +844,19 @@ dynamic_biped_generate_messages_lisp/fast:
 .PHONY : dynamic_biped_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named _dynamic_biped_generate_messages_check_deps_recordArmHandPose
+
+# Build rule for target.
+_dynamic_biped_generate_messages_check_deps_recordArmHandPose: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _dynamic_biped_generate_messages_check_deps_recordArmHandPose
+.PHONY : _dynamic_biped_generate_messages_check_deps_recordArmHandPose
+
+# fast build rule for target.
+_dynamic_biped_generate_messages_check_deps_recordArmHandPose/fast:
+	$(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/build
+.PHONY : _dynamic_biped_generate_messages_check_deps_recordArmHandPose/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -967,6 +993,7 @@ help:
 	@echo "... _dynamic_biped_generate_messages_check_deps_changeArmCtrlMode"
 	@echo "... _dynamic_biped_generate_messages_check_deps_srvchangeCtlMode"
 	@echo "... _dynamic_biped_generate_messages_check_deps_srvClearPositionCMD"
+	@echo "... _dynamic_biped_generate_messages_check_deps_armHandPose"
 	@echo "... _dynamic_biped_generate_messages_check_deps_handRotation"
 	@echo "... _dynamic_biped_generate_messages_check_deps_robotHeadMotionData"
 	@echo "... dynamic_biped_genpy"
@@ -998,6 +1025,7 @@ help:
 	@echo "... _dynamic_biped_generate_messages_check_deps_srvChangeJoller"
 	@echo "... dynamic_biped_generate_messages"
 	@echo "... dynamic_biped_generate_messages_lisp"
+	@echo "... _dynamic_biped_generate_messages_check_deps_recordArmHandPose"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... _dynamic_biped_generate_messages_check_deps_ECJointMotordata"
 	@echo "... dynamic_biped_gennodejs"

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rebot801/LIuXin/ICCUB_ws/src
+CMAKE_SOURCE_DIR = /home/lab/hx/ICCUB_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rebot801/LIuXin/ICCUB_ws/build
+CMAKE_BINARY_DIR = /home/lab/hx/ICCUB_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped/CMakeFiles/progress.marks
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles 0
+	cd /home/lab/hx/ICCUB_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles /home/lab/hx/ICCUB_ws/build/dynamic_biped/CMakeFiles/progress.marks
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab/hx/ICCUB_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/clean
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/preinstall
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/preinstall
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lab/hx/ICCUB_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ dynamic_biped_generate_messages_py: dynamic_biped/CMakeFiles/dynamic_biped_gener
 
 # fast build rule for target.
 dynamic_biped_generate_messages_py/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/build
 .PHONY : dynamic_biped_generate_messages_py/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ dynamic_biped_generate_messages_nodejs: dynamic_biped/CMakeFiles/dynamic_biped_g
 
 # fast build rule for target.
 dynamic_biped_generate_messages_nodejs/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_nodejs.dir/build
 .PHONY : dynamic_biped_generate_messages_nodejs/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ dynamic_biped_genlisp: dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/rule
 
 # fast build rule for target.
 dynamic_biped_genlisp/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_genlisp.dir/build
 .PHONY : dynamic_biped_genlisp/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ dynamic_biped_geneus: dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/rule
 
 # fast build rule for target.
 dynamic_biped_geneus/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_geneus.dir/build
 .PHONY : dynamic_biped_geneus/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ dynamic_biped_generate_messages_eus: dynamic_biped/CMakeFiles/dynamic_biped_gene
 
 # fast build rule for target.
 dynamic_biped_generate_messages_eus/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_eus.dir/build
 .PHONY : dynamic_biped_generate_messages_eus/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ dynamic_biped_gencpp: dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/rule
 
 # fast build rule for target.
 dynamic_biped_gencpp/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_gencpp.dir/build
 .PHONY : dynamic_biped_gencpp/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ _dynamic_biped_generate_messages_check_deps_controlEndHand: dynamic_biped/CMakeF
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_controlEndHand/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_controlEndHand.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_controlEndHand/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ _dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode: dynamic_biped/C
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ _dynamic_biped_generate_messages_check_deps_changeArmCtrlMode: dynamic_biped/CMa
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_changeArmCtrlMode/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeArmCtrlMode.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_changeArmCtrlMode/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ _dynamic_biped_generate_messages_check_deps_srvchangeCtlMode: dynamic_biped/CMak
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_srvchangeCtlMode/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvchangeCtlMode.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_srvchangeCtlMode/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,27 @@ _dynamic_biped_generate_messages_check_deps_srvClearPositionCMD: dynamic_biped/C
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_srvClearPositionCMD/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvClearPositionCMD.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_srvClearPositionCMD/fast
 
 # Convenience name for target.
+dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/rule:
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/rule
+.PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/rule
+
+# Convenience name for target.
+_dynamic_biped_generate_messages_check_deps_armHandPose: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/rule
+
+.PHONY : _dynamic_biped_generate_messages_check_deps_armHandPose
+
+# fast build rule for target.
+_dynamic_biped_generate_messages_check_deps_armHandPose/fast:
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_armHandPose.dir/build
+.PHONY : _dynamic_biped_generate_messages_check_deps_armHandPose/fast
+
+# Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/rule
 
 # Convenience name for target.
@@ -344,12 +359,12 @@ _dynamic_biped_generate_messages_check_deps_handRotation: dynamic_biped/CMakeFil
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_handRotation/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotation.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_handRotation/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/rule
 
 # Convenience name for target.
@@ -359,12 +374,12 @@ _dynamic_biped_generate_messages_check_deps_robotHeadMotionData: dynamic_biped/C
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_robotHeadMotionData/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHeadMotionData.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_robotHeadMotionData/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/rule
 
 # Convenience name for target.
@@ -374,12 +389,12 @@ dynamic_biped_genpy: dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/rule
 
 # fast build rule for target.
 dynamic_biped_genpy/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_genpy.dir/build
 .PHONY : dynamic_biped_genpy/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/rule
 
 # Convenience name for target.
@@ -389,12 +404,12 @@ _dynamic_biped_generate_messages_check_deps_srvChangePhases: dynamic_biped/CMake
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_srvChangePhases/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangePhases.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_srvChangePhases/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -404,12 +419,12 @@ rosgraph_msgs_generate_messages_py: dynamic_biped/CMakeFiles/rosgraph_msgs_gener
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -419,12 +434,12 @@ roscpp_generate_messages_lisp: dynamic_biped/CMakeFiles/roscpp_generate_messages
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -434,12 +449,12 @@ geometry_msgs_generate_messages_cpp: dynamic_biped/CMakeFiles/geometry_msgs_gene
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -449,12 +464,12 @@ geometry_msgs_generate_messages_nodejs: dynamic_biped/CMakeFiles/geometry_msgs_g
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/rule
 
 # Convenience name for target.
@@ -464,12 +479,12 @@ _dynamic_biped_generate_messages_check_deps_robotHandPosition: dynamic_biped/CMa
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_robotHandPosition/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotHandPosition.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_robotHandPosition/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -479,12 +494,12 @@ rosgraph_msgs_generate_messages_eus: dynamic_biped/CMakeFiles/rosgraph_msgs_gene
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/rule
 
 # Convenience name for target.
@@ -494,12 +509,12 @@ _dynamic_biped_generate_messages_check_deps_robotArmQVVD: dynamic_biped/CMakeFil
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_robotArmQVVD/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmQVVD.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_robotArmQVVD/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/rule
 
 # Convenience name for target.
@@ -509,12 +524,12 @@ _dynamic_biped_generate_messages_check_deps_walkCommand: dynamic_biped/CMakeFile
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_walkCommand/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_walkCommand.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_walkCommand/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/rule
 
 # Convenience name for target.
@@ -524,12 +539,12 @@ _dynamic_biped_generate_messages_check_deps_handRotationEular: dynamic_biped/CMa
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_handRotationEular/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_handRotationEular.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_handRotationEular/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -539,12 +554,12 @@ rosgraph_msgs_generate_messages_cpp: dynamic_biped/CMakeFiles/rosgraph_msgs_gene
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -554,12 +569,12 @@ roscpp_generate_messages_nodejs: dynamic_biped/CMakeFiles/roscpp_generate_messag
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -569,12 +584,12 @@ std_msgs_generate_messages_eus: dynamic_biped/CMakeFiles/std_msgs_generate_messa
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/rule
 
 # Convenience name for target.
@@ -584,12 +599,12 @@ _dynamic_biped_generate_messages_check_deps_QuaternionArray: dynamic_biped/CMake
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_QuaternionArray/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_QuaternionArray.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_QuaternionArray/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -599,12 +614,12 @@ geometry_msgs_generate_messages_lisp: dynamic_biped/CMakeFiles/geometry_msgs_gen
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -614,12 +629,12 @@ roscpp_generate_messages_py: dynamic_biped/CMakeFiles/roscpp_generate_messages_p
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/rule
 
 # Convenience name for target.
@@ -629,12 +644,12 @@ _dynamic_biped_generate_messages_check_deps_robotQVTau: dynamic_biped/CMakeFiles
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_robotQVTau/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotQVTau.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_robotQVTau/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -644,12 +659,12 @@ rosgraph_msgs_generate_messages_nodejs: dynamic_biped/CMakeFiles/rosgraph_msgs_g
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -659,12 +674,12 @@ dynamic_biped_generate_messages_cpp: dynamic_biped/CMakeFiles/dynamic_biped_gene
 
 # fast build rule for target.
 dynamic_biped_generate_messages_cpp/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_cpp.dir/build
 .PHONY : dynamic_biped_generate_messages_cpp/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -674,12 +689,12 @@ roscpp_generate_messages_eus: dynamic_biped/CMakeFiles/roscpp_generate_messages_
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -689,12 +704,12 @@ roscpp_generate_messages_cpp: dynamic_biped/CMakeFiles/roscpp_generate_messages_
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -704,12 +719,12 @@ geometry_msgs_generate_messages_py: dynamic_biped/CMakeFiles/geometry_msgs_gener
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -719,12 +734,12 @@ std_msgs_generate_messages_py: dynamic_biped/CMakeFiles/std_msgs_generate_messag
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -734,12 +749,12 @@ std_msgs_generate_messages_nodejs: dynamic_biped/CMakeFiles/std_msgs_generate_me
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -749,12 +764,12 @@ geometry_msgs_generate_messages_eus: dynamic_biped/CMakeFiles/geometry_msgs_gene
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make dynamic_biped/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/rule
 
 # Convenience name for target.
@@ -764,12 +779,12 @@ _dynamic_biped_generate_messages_check_deps_srvChangeJoller: dynamic_biped/CMake
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_srvChangeJoller/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_srvChangeJoller.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_srvChangeJoller/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -779,12 +794,12 @@ dynamic_biped_generate_messages: dynamic_biped/CMakeFiles/dynamic_biped_generate
 
 # fast build rule for target.
 dynamic_biped_generate_messages/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages.dir/build
 .PHONY : dynamic_biped_generate_messages/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -794,12 +809,27 @@ dynamic_biped_generate_messages_lisp: dynamic_biped/CMakeFiles/dynamic_biped_gen
 
 # fast build rule for target.
 dynamic_biped_generate_messages_lisp/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_lisp.dir/build
 .PHONY : dynamic_biped_generate_messages_lisp/fast
 
 # Convenience name for target.
+dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/rule:
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/rule
+.PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/rule
+
+# Convenience name for target.
+_dynamic_biped_generate_messages_check_deps_recordArmHandPose: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/rule
+
+.PHONY : _dynamic_biped_generate_messages_check_deps_recordArmHandPose
+
+# fast build rule for target.
+_dynamic_biped_generate_messages_check_deps_recordArmHandPose/fast:
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_recordArmHandPose.dir/build
+.PHONY : _dynamic_biped_generate_messages_check_deps_recordArmHandPose/fast
+
+# Convenience name for target.
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -809,12 +839,12 @@ std_msgs_generate_messages_lisp: dynamic_biped/CMakeFiles/std_msgs_generate_mess
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/rule
 
 # Convenience name for target.
@@ -824,12 +854,12 @@ _dynamic_biped_generate_messages_check_deps_ECJointMotordata: dynamic_biped/CMak
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_ECJointMotordata/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_ECJointMotordata.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_ECJointMotordata/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -839,12 +869,12 @@ dynamic_biped_gennodejs: dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/ru
 
 # fast build rule for target.
 dynamic_biped_gennodejs/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/build.make dynamic_biped/CMakeFiles/dynamic_biped_gennodejs.dir/build
 .PHONY : dynamic_biped_gennodejs/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -854,12 +884,12 @@ std_msgs_generate_messages_cpp: dynamic_biped/CMakeFiles/std_msgs_generate_messa
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make dynamic_biped/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/rule
 
 # Convenience name for target.
@@ -869,12 +899,12 @@ _dynamic_biped_generate_messages_check_deps_robotTorsoState: dynamic_biped/CMake
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_robotTorsoState/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotTorsoState.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_robotTorsoState/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/rule
 
 # Convenience name for target.
@@ -884,12 +914,12 @@ _dynamic_biped_generate_messages_check_deps_robotPhase: dynamic_biped/CMakeFiles
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_robotPhase/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotPhase.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_robotPhase/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -899,12 +929,12 @@ rosgraph_msgs_generate_messages_lisp: dynamic_biped/CMakeFiles/rosgraph_msgs_gen
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make dynamic_biped/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/rule:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/rule
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/rule
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/rule
 
 # Convenience name for target.
@@ -914,7 +944,7 @@ _dynamic_biped_generate_messages_check_deps_robotArmInfo: dynamic_biped/CMakeFil
 
 # fast build rule for target.
 _dynamic_biped_generate_messages_check_deps_robotArmInfo/fast:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/build
+	cd /home/lab/hx/ICCUB_ws/build && $(MAKE) -f dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/build.make dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_robotArmInfo.dir/build
 .PHONY : _dynamic_biped_generate_messages_check_deps_robotArmInfo/fast
 
 # Help Target
@@ -938,6 +968,7 @@ help:
 	@echo "... _dynamic_biped_generate_messages_check_deps_changeArmCtrlMode"
 	@echo "... _dynamic_biped_generate_messages_check_deps_srvchangeCtlMode"
 	@echo "... _dynamic_biped_generate_messages_check_deps_srvClearPositionCMD"
+	@echo "... _dynamic_biped_generate_messages_check_deps_armHandPose"
 	@echo "... _dynamic_biped_generate_messages_check_deps_handRotation"
 	@echo "... _dynamic_biped_generate_messages_check_deps_robotHeadMotionData"
 	@echo "... dynamic_biped_genpy"
@@ -972,6 +1003,7 @@ help:
 	@echo "... _dynamic_biped_generate_messages_check_deps_srvChangeJoller"
 	@echo "... dynamic_biped_generate_messages"
 	@echo "... dynamic_biped_generate_messages_lisp"
+	@echo "... _dynamic_biped_generate_messages_check_deps_recordArmHandPose"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... _dynamic_biped_generate_messages_check_deps_ECJointMotordata"
 	@echo "... dynamic_biped_gennodejs"
@@ -991,6 +1023,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lab/hx/ICCUB_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

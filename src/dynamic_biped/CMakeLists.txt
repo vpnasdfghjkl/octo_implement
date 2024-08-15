@@ -64,6 +64,8 @@ add_message_files(
   FILES handRotation.msg
   QuaternionArray.msg
   handRotationEular.msg
+  armHandPose.msg
+  recordArmHandPose.msg
 )
 
 ## Generate services in the 'srv' folder

@@ -67,14 +67,14 @@ set(dynamic_biped_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(dynamic_biped_SOURCE_PREFIX /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped)
-  set(dynamic_biped_DEVEL_PREFIX /home/rebot801/LIuXin/ICCUB_ws/devel)
+  set(dynamic_biped_SOURCE_PREFIX /home/lab/hx/ICCUB_ws/src/dynamic_biped)
+  set(dynamic_biped_DEVEL_PREFIX /home/lab/hx/ICCUB_ws/devel)
   set(dynamic_biped_INSTALL_PREFIX "")
   set(dynamic_biped_PREFIX ${dynamic_biped_DEVEL_PREFIX})
 else()
   set(dynamic_biped_SOURCE_PREFIX "")
   set(dynamic_biped_DEVEL_PREFIX "")
-  set(dynamic_biped_INSTALL_PREFIX /home/rebot801/LIuXin/ICCUB_ws/install)
+  set(dynamic_biped_INSTALL_PREFIX /home/lab/hx/ICCUB_ws/install)
   set(dynamic_biped_PREFIX ${dynamic_biped_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/rebot801/LIuXin/ICCUB_ws/install/lib;/home/rebot801/xujian/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/lab/hx/ICCUB_ws/install/lib;/home/lab/hx/ICCUB_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

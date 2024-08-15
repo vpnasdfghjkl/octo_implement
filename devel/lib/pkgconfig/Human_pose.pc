@@ -1,4 +1,4 @@
-prefix=/home/rebot801/LIuXin/ICCUB_ws/devel
+prefix=/home/lab/hx/ICCUB_ws/devel
 
 Name: Human_pose
 Description: Description of Human_pose

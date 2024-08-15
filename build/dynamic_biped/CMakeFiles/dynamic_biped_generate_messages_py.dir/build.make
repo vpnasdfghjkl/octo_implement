@@ -43,208 +43,229 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rebot801/LIuXin/ICCUB_ws/src
+CMAKE_SOURCE_DIR = /home/lab/hx/ICCUB_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rebot801/LIuXin/ICCUB_ws/build
+CMAKE_BINARY_DIR = /home/lab/hx/ICCUB_ws/build
 
 # Utility rule file for dynamic_biped_generate_messages_py.
 
 # Include the progress variables for this target.
 include dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/progress.make
 
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_walkCommand.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_ECJointMotordata.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotQVTau.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmQVVD.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotTorsoState.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotPhase.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmInfo.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHandPosition.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHeadMotionData.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotation.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_QuaternionArray.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotationEular.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangePhases.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvClearPositionCMD.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvchangeCtlMode.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeArmCtrlMode.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeAMBACCtrlMode.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangeJoller.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_controlEndHand.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py
-dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_walkCommand.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_ECJointMotordata.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotQVTau.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmQVVD.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotTorsoState.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotPhase.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmInfo.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHandPosition.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHeadMotionData.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotation.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_QuaternionArray.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotationEular.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_armHandPose.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_recordArmHandPose.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangePhases.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvClearPositionCMD.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvchangeCtlMode.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeArmCtrlMode.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeAMBACCtrlMode.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangeJoller.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_controlEndHand.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py
+dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py
 
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_walkCommand.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_walkCommand.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG dynamic_biped/walkCommand"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_walkCommand.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_walkCommand.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG dynamic_biped/walkCommand"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/walkCommand.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_ECJointMotordata.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_ECJointMotordata.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG dynamic_biped/ECJointMotordata"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_ECJointMotordata.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_ECJointMotordata.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG dynamic_biped/ECJointMotordata"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/ECJointMotordata.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotQVTau.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotQVTau.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG dynamic_biped/robotQVTau"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotQVTau.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotQVTau.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG dynamic_biped/robotQVTau"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotQVTau.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmQVVD.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmQVVD.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG dynamic_biped/robotArmQVVD"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmQVVD.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmQVVD.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmQVVD.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG dynamic_biped/robotArmQVVD"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmQVVD.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotTorsoState.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotTorsoState.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotTorsoState.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG dynamic_biped/robotTorsoState"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotTorsoState.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotTorsoState.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotTorsoState.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG dynamic_biped/robotTorsoState"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotTorsoState.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotPhase.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotPhase.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG dynamic_biped/robotPhase"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotPhase.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotPhase.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG dynamic_biped/robotPhase"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotPhase.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmInfo.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmInfo.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmInfo.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG dynamic_biped/robotArmInfo"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmInfo.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmInfo.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmInfo.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG dynamic_biped/robotArmInfo"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotArmInfo.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHandPosition.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHandPosition.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHandPosition.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG dynamic_biped/robotHandPosition"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHandPosition.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHandPosition.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHandPosition.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python from MSG dynamic_biped/robotHandPosition"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHandPosition.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHeadMotionData.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHeadMotionData.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG dynamic_biped/robotHeadMotionData"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHeadMotionData.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHeadMotionData.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python from MSG dynamic_biped/robotHeadMotionData"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/robotHeadMotionData.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotation.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotation.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotation.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python from MSG dynamic_biped/handRotation"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotation.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotation.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotation.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python from MSG dynamic_biped/handRotation"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotation.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_QuaternionArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_QuaternionArray.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_QuaternionArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python from MSG dynamic_biped/QuaternionArray"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_QuaternionArray.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_QuaternionArray.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_QuaternionArray.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python from MSG dynamic_biped/QuaternionArray"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/QuaternionArray.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotationEular.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotationEular.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotationEular.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python from MSG dynamic_biped/handRotationEular"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotationEular.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotationEular.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotationEular.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python from MSG dynamic_biped/handRotationEular"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/handRotationEular.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangePhases.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangePhases.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python code from SRV dynamic_biped/srvChangePhases"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_armHandPose.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_armHandPose.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python from MSG dynamic_biped/armHandPose"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvClearPositionCMD.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvClearPositionCMD.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Python code from SRV dynamic_biped/srvClearPositionCMD"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_recordArmHandPose.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_recordArmHandPose.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_recordArmHandPose.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_recordArmHandPose.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/armHandPose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Python from MSG dynamic_biped/recordArmHandPose"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/msg/recordArmHandPose.msg -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvchangeCtlMode.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvchangeCtlMode.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python code from SRV dynamic_biped/srvchangeCtlMode"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangePhases.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangePhases.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python code from SRV dynamic_biped/srvChangePhases"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangePhases.srv -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeArmCtrlMode.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeArmCtrlMode.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python code from SRV dynamic_biped/changeArmCtrlMode"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvClearPositionCMD.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvClearPositionCMD.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python code from SRV dynamic_biped/srvClearPositionCMD"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvClearPositionCMD.srv -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeAMBACCtrlMode.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeAMBACCtrlMode.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Python code from SRV dynamic_biped/changeAMBACCtrlMode"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvchangeCtlMode.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvchangeCtlMode.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Python code from SRV dynamic_biped/srvchangeCtlMode"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvchangeCtlMode.srv -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangeJoller.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangeJoller.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python code from SRV dynamic_biped/srvChangeJoller"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeArmCtrlMode.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeArmCtrlMode.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python code from SRV dynamic_biped/changeArmCtrlMode"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeArmCtrlMode.srv -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_controlEndHand.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_controlEndHand.py: /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Python code from SRV dynamic_biped/controlEndHand"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv -Idynamic_biped:/home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeAMBACCtrlMode.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeAMBACCtrlMode.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Python code from SRV dynamic_biped/changeAMBACCtrlMode"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_walkCommand.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_ECJointMotordata.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotQVTau.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmQVVD.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotTorsoState.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotPhase.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmInfo.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHandPosition.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHeadMotionData.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotation.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_QuaternionArray.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotationEular.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangePhases.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvClearPositionCMD.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvchangeCtlMode.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeArmCtrlMode.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeAMBACCtrlMode.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangeJoller.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_controlEndHand.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Python msg __init__.py for dynamic_biped"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg --initpy
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangeJoller.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangeJoller.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Python code from SRV dynamic_biped/srvChangeJoller"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/srvChangeJoller.srv -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv
 
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_walkCommand.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_ECJointMotordata.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotQVTau.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmQVVD.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotTorsoState.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotPhase.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmInfo.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHandPosition.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHeadMotionData.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotation.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_QuaternionArray.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotationEular.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangePhases.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvClearPositionCMD.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvchangeCtlMode.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeArmCtrlMode.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeAMBACCtrlMode.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangeJoller.py
-/home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_controlEndHand.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rebot801/LIuXin/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Python srv __init__.py for dynamic_biped"
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv --initpy
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_controlEndHand.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_controlEndHand.py: /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Python code from SRV dynamic_biped/controlEndHand"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/controlEndHand.srv -Idynamic_biped:/home/lab/hx/ICCUB_ws/src/dynamic_biped/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p dynamic_biped -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv
+
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_walkCommand.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_ECJointMotordata.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotQVTau.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmQVVD.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotTorsoState.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotPhase.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmInfo.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHandPosition.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHeadMotionData.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotation.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_QuaternionArray.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotationEular.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_armHandPose.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_recordArmHandPose.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangePhases.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvClearPositionCMD.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvchangeCtlMode.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeArmCtrlMode.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeAMBACCtrlMode.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangeJoller.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_controlEndHand.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Python msg __init__.py for dynamic_biped"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg --initpy
+
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_walkCommand.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_ECJointMotordata.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotQVTau.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmQVVD.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotTorsoState.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotPhase.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmInfo.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHandPosition.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHeadMotionData.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotation.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_QuaternionArray.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotationEular.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_armHandPose.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_recordArmHandPose.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangePhases.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvClearPositionCMD.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvchangeCtlMode.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeArmCtrlMode.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeAMBACCtrlMode.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangeJoller.py
+/home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_controlEndHand.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab/hx/ICCUB_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Python srv __init__.py for dynamic_biped"
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv --initpy
 
 dynamic_biped_generate_messages_py: dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_walkCommand.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_ECJointMotordata.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotQVTau.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmQVVD.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotTorsoState.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotPhase.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmInfo.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHandPosition.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHeadMotionData.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotation.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_QuaternionArray.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotationEular.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangePhases.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvClearPositionCMD.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvchangeCtlMode.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeArmCtrlMode.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeAMBACCtrlMode.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangeJoller.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_controlEndHand.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py
-dynamic_biped_generate_messages_py: /home/rebot801/LIuXin/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_walkCommand.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_ECJointMotordata.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotQVTau.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmQVVD.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotTorsoState.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotPhase.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotArmInfo.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHandPosition.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_robotHeadMotionData.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotation.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_QuaternionArray.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_handRotationEular.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_armHandPose.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/_recordArmHandPose.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangePhases.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvClearPositionCMD.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvchangeCtlMode.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeArmCtrlMode.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_changeAMBACCtrlMode.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_srvChangeJoller.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/_controlEndHand.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/msg/__init__.py
+dynamic_biped_generate_messages_py: /home/lab/hx/ICCUB_ws/devel/lib/python3/dist-packages/dynamic_biped/srv/__init__.py
 dynamic_biped_generate_messages_py: dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/build.make
 
 .PHONY : dynamic_biped_generate_messages_py
@@ -255,10 +276,10 @@ dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/build: dynamic_b
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/build
 
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/clean:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_biped_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_biped_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/clean
 
 dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/depend:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rebot801/LIuXin/ICCUB_ws/src /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped /home/rebot801/LIuXin/ICCUB_ws/build /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lab/hx/ICCUB_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lab/hx/ICCUB_ws/src /home/lab/hx/ICCUB_ws/src/dynamic_biped /home/lab/hx/ICCUB_ws/build /home/lab/hx/ICCUB_ws/build/dynamic_biped /home/lab/hx/ICCUB_ws/build/dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dynamic_biped/CMakeFiles/dynamic_biped_generate_messages_py.dir/depend
 

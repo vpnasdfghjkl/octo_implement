@@ -2,7 +2,8 @@ import matplotlib.pyplot as plt
 import re
 import os
 
-src_path = "/home/rebot801/LIuXin/ICCUB_ws/Dataset788"
+src_path = "/home/rebot801/LIuXin/Dataset/pure_bg2"
+# src_path = "/home/rebot801/LIuXin/Dataset_old/Dataset111/"
 
 def get_txt(txt_path: str):
 
@@ -35,6 +36,7 @@ def get_txt(txt_path: str):
         for sum_list, y in zip(sum_y, Y):
 
             sum_list.append(float(y))
+
     return sum_x, sum_y
 
 
@@ -47,9 +49,10 @@ for file_path in os.listdir(src_path):
 
         stand_path = f'{src_path}/{file_path}/state/{data_time}_state.txt'
 
+        X_state, Y_state = get_txt(stand_path)
+
         X_command, Y_command = get_txt(command_path)
 
-        X_state, Y_state = get_txt(stand_path)
 
         # 将两个值拼接起来，取最大值，并做归一化
         all_values = X_command + X_state
@@ -64,8 +67,10 @@ for file_path in os.listdir(src_path):
 
         for i, (ax, y_values, z_values) in enumerate(zip(axs.flatten()[:14], Y_command, Y_state)):
 
-            ax.plot(x_command, y_values, label=f'state')
-            ax.plot(x_state, z_values, label=f'command')
+            ax.plot(x_state, z_values, label=f'state')
+
+            ax.plot(x_command, y_values, label=f'command')
+            
             ax.set_title(f'motor {i + 1} state')
             ax.legend()
 
@@ -73,7 +78,7 @@ for file_path in os.listdir(src_path):
 
         plt.subplots_adjust(wspace=0.4, hspace=0.4)
 
-        plt.show()
+        # plt.show()
         plt.rcParams["figure.figsize"] = [20, 10]
 
         plt.savefig(f'{file_path}.png')

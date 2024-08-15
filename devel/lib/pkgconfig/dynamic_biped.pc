@@ -1,8 +1,8 @@
-prefix=/home/rebot801/LIuXin/ICCUB_ws/devel
+prefix=/home/lab/hx/ICCUB_ws/devel
 
 Name: dynamic_biped
 Description: Description of dynamic_biped
 Version: 0.0.0
-Cflags: -I/home/rebot801/LIuXin/ICCUB_ws/devel/include
+Cflags: -I/home/lab/hx/ICCUB_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: rospy message_runtime

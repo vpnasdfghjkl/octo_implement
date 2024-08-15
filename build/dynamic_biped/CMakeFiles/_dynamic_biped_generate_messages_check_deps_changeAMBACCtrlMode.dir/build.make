@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rebot801/LIuXin/ICCUB_ws/src
+CMAKE_SOURCE_DIR = /home/lab/hx/ICCUB_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rebot801/LIuXin/ICCUB_ws/build
+CMAKE_BINARY_DIR = /home/lab/hx/ICCUB_ws/build
 
 # Utility rule file for _dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/rebot801/LIuXin/ICCUB_ws/build
 include dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/progress.make
 
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamic_biped /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv 
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamic_biped /home/lab/hx/ICCUB_ws/src/dynamic_biped/srv/changeAMBACCtrlMode.srv 
 
 _dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode
 _dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode: dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/build.make
@@ -67,10 +67,10 @@ dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBAC
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/build
 
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/clean:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped && $(CMAKE_COMMAND) -P CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/cmake_clean.cmake
+	cd /home/lab/hx/ICCUB_ws/build/dynamic_biped && $(CMAKE_COMMAND) -P CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/cmake_clean.cmake
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/clean
 
 dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/depend:
-	cd /home/rebot801/LIuXin/ICCUB_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rebot801/LIuXin/ICCUB_ws/src /home/rebot801/LIuXin/ICCUB_ws/src/dynamic_biped /home/rebot801/LIuXin/ICCUB_ws/build /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped /home/rebot801/LIuXin/ICCUB_ws/build/dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lab/hx/ICCUB_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lab/hx/ICCUB_ws/src /home/lab/hx/ICCUB_ws/src/dynamic_biped /home/lab/hx/ICCUB_ws/build /home/lab/hx/ICCUB_ws/build/dynamic_biped /home/lab/hx/ICCUB_ws/build/dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dynamic_biped/CMakeFiles/_dynamic_biped_generate_messages_check_deps_changeAMBACCtrlMode.dir/depend
 

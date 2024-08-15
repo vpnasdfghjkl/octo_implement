@@ -11,6 +11,7 @@ const _deserializer = _ros_msg_utils.Deserialize;
 const _arrayDeserializer = _deserializer.Array;
 const _finder = _ros_msg_utils.Find;
 const _getByteLength = _ros_msg_utils.getByteLength;
+let std_msgs = _finder('std_msgs');
 
 //-----------------------------------------------------------
 
@@ -18,11 +19,19 @@ class robotArmQVVD {
   constructor(initObj={}) {
     if (initObj === null) {
       // initObj === null is a special case for deserialization where we don't initialize fields
+      this.header = null;
       this.q = null;
       this.v = null;
       this.vd = null;
+      this.tau = null;
     }
     else {
+      if (initObj.hasOwnProperty('header')) {
+        this.header = initObj.header
+      }
+      else {
+        this.header = new std_msgs.msg.Header();
+      }
       if (initObj.hasOwnProperty('q')) {
         this.q = initObj.q
       }
@@ -41,17 +50,27 @@ class robotArmQVVD {
       else {
         this.vd = [];
       }
+      if (initObj.hasOwnProperty('tau')) {
+        this.tau = initObj.tau
+      }
+      else {
+        this.tau = [];
+      }
     }
   }
 
   static serialize(obj, buffer, bufferOffset) {
     // Serializes a message object of type robotArmQVVD
+    // Serialize message field [header]
+    bufferOffset = std_msgs.msg.Header.serialize(obj.header, buffer, bufferOffset);
     // Serialize message field [q]
     bufferOffset = _arraySerializer.float64(obj.q, buffer, bufferOffset, null);
     // Serialize message field [v]
     bufferOffset = _arraySerializer.float64(obj.v, buffer, bufferOffset, null);
     // Serialize message field [vd]
     bufferOffset = _arraySerializer.float64(obj.vd, buffer, bufferOffset, null);
+    // Serialize message field [tau]
+    bufferOffset = _arraySerializer.float64(obj.tau, buffer, bufferOffset, null);
     return bufferOffset;
   }
 
@@ -59,21 +78,27 @@ class robotArmQVVD {
     //deserializes a message object of type robotArmQVVD
     let len;
     let data = new robotArmQVVD(null);
+    // Deserialize message field [header]
+    data.header = std_msgs.msg.Header.deserialize(buffer, bufferOffset);
     // Deserialize message field [q]
     data.q = _arrayDeserializer.float64(buffer, bufferOffset, null)
     // Deserialize message field [v]
     data.v = _arrayDeserializer.float64(buffer, bufferOffset, null)
     // Deserialize message field [vd]
     data.vd = _arrayDeserializer.float64(buffer, bufferOffset, null)
+    // Deserialize message field [tau]
+    data.tau = _arrayDeserializer.float64(buffer, bufferOffset, null)
     return data;
   }
 
   static getMessageSize(object) {
     let length = 0;
+    length += std_msgs.msg.Header.getMessageSize(object.header);
     length += 8 * object.q.length;
     length += 8 * object.v.length;
     length += 8 * object.vd.length;
-    return length + 12;
+    length += 8 * object.tau.length;
+    return length + 16;
   }
 
   static datatype() {
@@ -83,15 +108,33 @@ class robotArmQVVD {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return 'f2840165d02c529a8a4e8e04370a219b';
+    return '3871141b674f003bc326e4d8da08f4ad';
   }
 
   static messageDefinition() {
     // Returns full string definition for message
     return `
+    Header header
     float64[] q
     float64[] v
     float64[] vd
+    float64[] tau
+    ================================================================================
+    MSG: std_msgs/Header
+    # Standard metadata for higher-level stamped data types.
+    # This is generally used to communicate timestamped data 
+    # in a particular coordinate frame.
+    # 
+    # sequence ID: consecutively increasing ID 
+    uint32 seq
+    #Two-integer timestamp that is expressed as:
+    # * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')
+    # * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')
+    # time-handling sugar is provided by the client library
+    time stamp
+    #Frame this data is associated with
+    string frame_id
+    
     `;
   }
 
@@ -101,6 +144,13 @@ class robotArmQVVD {
       msg = {};
     }
     const resolved = new robotArmQVVD(null);
+    if (msg.header !== undefined) {
+      resolved.header = std_msgs.msg.Header.Resolve(msg.header)
+    }
+    else {
+      resolved.header = new std_msgs.msg.Header()
+    }
+
     if (msg.q !== undefined) {
       resolved.q = msg.q;
     }
@@ -120,6 +170,13 @@ class robotArmQVVD {
     }
     else {
       resolved.vd = []
+    }
+
+    if (msg.tau !== undefined) {
+      resolved.tau = msg.tau;
+    }
+    else {
+      resolved.tau = []
     }
 
     return resolved;

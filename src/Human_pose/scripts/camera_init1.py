@@ -10,12 +10,11 @@ def camera_init() -> any:
     config = rs.config()
 
     # config.enable_stream(rs.stream.depth, 640, 480, rs.format.z16, 60)
-    config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 60)
+    config.enable_stream(rs.stream.color, 640, 360, rs.format.bgr8, 60)
 
     # Start streaming
     profile = pipeline.start(config)
-    # device = profile.get_device()
-    # device.hardware_reset()
+
 
     return pipeline
 
@@ -23,24 +22,12 @@ def camera_main(pipeline):
 
     frames = pipeline.wait_for_frames()
 
-    # 深度图
-    # depth_frame = frames.get_depth_frame()
-    # 正常读取的视频流
     color_frame = frames.get_color_frame()
 
-    # if not depth_frame or not color_frame:
-
-    #     print("当前没有读到任何数据，请重新检查输入！！！")
-
-
-    # Convert images to numpy arrays
-    # depth_image = np.asanyarray(depth_frame.get_data())
     color_image = np.asanyarray(color_frame.get_data())
 
-    # depth_colormap = cv2.applyColorMap(cv2.convertScaleAbs(depth_image, alpha=0.03), cv2.COLORMAP_JET)
 
 
-    # return depth_image, color_image
     return color_image
  
 def camera_close(pipeline):
@@ -66,10 +53,8 @@ if __name__== "__main__":
 
 
             camera_path = f'{state_save_path}/../camera/{time.time()}.png ' 
-            # cv2.imwrite(camera_path,color_image)
-            # print("写入图片成功！！",camera_path)
 
-            cv2.waitKey(10)
+
             print(time.localtime())
 
     finally:

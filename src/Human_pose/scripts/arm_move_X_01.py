@@ -20,8 +20,9 @@ import time
 from kuavoRobotSDK import kuavo
 
 if __name__ == "__main__":
+
     # 初始化节点
-    rospy.init_node('demo_test') 
+    rospy.init_node('demo_test1') 
 
     # 初始化机器人
     robot_instance = kuavo("3_7_kuavo")
@@ -30,20 +31,16 @@ if __name__ == "__main__":
     # robot_instance.set_robot_arm_ctl_mode(True)
     # joint_positions = [40,0,0,0,0,0,0,0,0,0,0,0,0,40]
 
-    joint_positions = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    # joint_positions = [-12, 8, -26, -100, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-    robot_instance.set_arm_traj_position(joint_positions)
+    joint14 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    robot_instance.set_arm_traj_position(joint14)
+
     time.sleep(2)
 
-    # joint_positions = [20,0,0,-30,0,0,0,20,0,0,-30,0,0,0]
+    
+    joint14 = [0, 0, 0, 0, 0, 0, 0, 2.0486755515625, -1.2131204031047327, -39.75386170704427, -0.4043464679531559, 0.4701775993612256, -8.92914888420224, 1.650684011426176]
+    robot_instance.set_arm_traj_position(joint14)
 
-    # robot_instance.set_arm_traj_position(joint_positions)
-    # time.sleep(2)
-    # print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
-    #
-    # joint_positions = [0,0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    # # joint_positions = [-12, 8, -26, -100, -16, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    #
-    # robot_instance.set_arm_traj_position(joint_positions)
+    time.sleep(2)
+
 

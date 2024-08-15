@@ -32,12 +32,12 @@ def main(statues):
 
     if statues == 1:
         
-        left_hand_position = [0, 0, 0, 0, 0, 0]
-        right_hand_position = [0, 70, 20, 20, 20, 20]
+        left_hand_position = [0, 70, 20, 20, 20, 20]
+        right_hand_position = [0, 0, 0, 0, 0, 0]
 
     elif statues == 2:
-        left_hand_position = [0,0, 0, 0, 0,0]
-        right_hand_position = [0, 30, 80, 80, 80, 80]
+        left_hand_position = [0, 30, 80, 80, 80, 80]
+        right_hand_position = [0,0, 0, 0, 0,0]
 
 
     elif statues == 3:

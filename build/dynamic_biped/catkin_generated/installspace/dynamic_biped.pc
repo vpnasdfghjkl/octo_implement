@@ -1,4 +1,4 @@
-prefix=/home/rebot801/LIuXin/ICCUB_ws/install
+prefix=/home/lab/hx/ICCUB_ws/install
 
 Name: dynamic_biped
 Description: Description of dynamic_biped

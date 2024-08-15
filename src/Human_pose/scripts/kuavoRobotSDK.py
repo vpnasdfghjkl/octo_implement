@@ -53,7 +53,7 @@ class kuavo:
 
         # msg Pub 
         self._walk_speed_pub = rospy.Publisher("/walkCommand", walkCommand, queue_size=10)
-        self._arm_traj_pub = rospy.Publisher("/kuavo_arm_traj", JointState, queue_size=2)
+        self._arm_traj_pub = rospy.Publisher("/kuavo_arm_traj", JointState, queue_size=10)
 
         # msg Sub
         self._robotQVTau_sub = rospy.Subscriber("/robot_q_v_tau", robotQVTau, self.get_robotQVTau_callback)
@@ -119,6 +119,8 @@ class kuavo:
     def pub_kuavo_arm_traj(self, traj_jointstate):
 
         arm_traj_msg = JointState()
+        
+        print("***************************",traj_jointstate.position)
 
         arm_traj_msg.position = traj_jointstate.position
 

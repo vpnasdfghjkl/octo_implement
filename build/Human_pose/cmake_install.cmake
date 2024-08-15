@@ -1,8 +1,8 @@
-# Install script for directory: /home/rebot801/LIuXin/ICCUB_ws/src/Human_pose
+# Install script for directory: /home/lab/hx/ICCUB_ws/src/Human_pose
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rebot801/LIuXin/ICCUB_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lab/hx/ICCUB_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rebot801/LIuXin/ICCUB_ws/build/Human_pose/catkin_generated/installspace/Human_pose.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lab/hx/ICCUB_ws/build/Human_pose/catkin_generated/installspace/Human_pose.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Human_pose/cmake" TYPE FILE FILES
-    "/home/rebot801/LIuXin/ICCUB_ws/build/Human_pose/catkin_generated/installspace/Human_poseConfig.cmake"
-    "/home/rebot801/LIuXin/ICCUB_ws/build/Human_pose/catkin_generated/installspace/Human_poseConfig-version.cmake"
+    "/home/lab/hx/ICCUB_ws/build/Human_pose/catkin_generated/installspace/Human_poseConfig.cmake"
+    "/home/lab/hx/ICCUB_ws/build/Human_pose/catkin_generated/installspace/Human_poseConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Human_pose" TYPE FILE FILES "/home/rebot801/LIuXin/ICCUB_ws/src/Human_pose/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Human_pose" TYPE FILE FILES "/home/lab/hx/ICCUB_ws/src/Human_pose/package.xml")
 endif()
 
