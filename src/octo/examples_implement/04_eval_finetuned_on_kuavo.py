@@ -63,8 +63,8 @@ flags.DEFINE_bool("primary", True, "is there primary", required=False)
 flags.DEFINE_bool("secondary", False, "is there secondary", required=False)
 
 # flags.DEFINE_string("video_save_path", None, "Path to save video",required=False)
-flags.DEFINE_integer("num_timesteps", 20000, "num timesteps",required=False)
-flags.DEFINE_integer("window_size", 2, "Observation history length",required=False)
+flags.DEFINE_integer("num_timesteps", 2000000, "num timesteps",required=False)
+flags.DEFINE_integer("window_size", 1, "Observation history length",required=False)
 flags.DEFINE_integer(
     "action_horizon", 8, "Length of action sequence to execute/ensemble"
 )
@@ -91,14 +91,24 @@ ENV_PARAMS = {
     "override_workspace_boundaries": WORKSPACE_BOUNDS,
     "move_duration": STEP_DURATION,
 }
-GRIPPER_OPEN_STATE = "[0, 30, 0, 0, 0, 0, 0, 30, 0, 0, 0, 0]"
-GRIPPER_CLOSE_STATE = "[30, 30, 90, 90, 90, 90, 30, 30, 90, 90, 90, 90]"
+# GRIPPER_OPEN_STATE = "[0, 30, 0, 0, 0, 0, 0, 30, 0, 0, 0, 0]"
+GRIPPER_OPEN_STATE = "[0, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+# GRIPPER_CLOSE_STATE = "[30, 30, 90, 90, 90, 90, 30, 30, 90, 90, 90, 90]"
+GRIPPER_CLOSE_STATE = "[30, 30, 90, 90, 90, 90, 0, 0, 0, 0, 0, 0]"
 
 ##############################################################################
 state=None
 gripper=None
 cmd_eef=None
 state_eef=None
+def quat_pose_to_euler(pos_xyz,quat_xyzw):
+    xyz=np.array(pos_xyz)
+    xyzw=np.array(quat_xyzw)
+    rotation = R.from_quat(xyzw)
+    # 转换为欧拉角 (默认是 'xyz' 顺序，单位是弧度)
+    euler_angles = rotation.as_euler('xyz')
+    xyzrpy=np.concatenate((xyz,euler_angles))
+    return xyzrpy
 
 def rad_to_angle(rad_list: list) -> list:
     """弧度转变为角度"""
@@ -149,6 +159,9 @@ def call_control_end_hand_service(left_hand_position: List[float], right_hand_po
 
 
 def go_to_start(robot_instance):
+    import rosbag
+    bag_name=""
+    bag = rosbag.Bag(bag_name, 'r')
     start_traj_txt_path=FLAGS.start_traj_txt_path
     with open(start_traj_txt_path, 'r') as f:
         lines = f.readlines()
@@ -183,11 +196,13 @@ def normalize(data, metadata):
 def get_info(history_dict,ts,action_proprio_metadata):
     global gripper
     obs=dict()
+    
     if "proprio" in history_dict.keys():
         if not TEST_MODE:
-            state=robot_instance.latest_RobotstatePosition
+            # state=robot_instance.latest_RobotstatePosition
+            l_hand_state=state_eef
         else:
-            state=np.random.rand(14)
+            l_hand_state=np.random.rand(6)
         print("#################",gripper)
         gripper01=10
 
@@ -196,8 +211,8 @@ def get_info(history_dict,ts,action_proprio_metadata):
         elif gripper==GRIPPER_CLOSE_STATE:
             gripper01=1
 
-        one_hand = state[0:7]
-        state = np.append(one_hand, gripper01)
+        # one_hand = state[0:7]
+        state = np.append(l_hand_state, gripper01)
         # normolize state
         state =normalize(state,action_proprio_metadata)
         
@@ -270,15 +285,25 @@ def main(_):
         FLAGS.checkpoint_weights_path,
         FLAGS.checkpoint_step,
     )
+    
     print("#############################")
     # wrap the robot environment    
     if not TEST_MODE:
+        import subprocess
+        # subprocess.run(['rosbag', 'play', '/home/lab/hx/rosbag_WRC_juice3/juice_3_begin.bag'], capture_output=True, text=True)
+ 
         # go_to_start(robot_instance)
-        # robot_instance.set_arm_traj_position(rad_to_angle([-0.20478183873824504, 0.35038397443912594, -0.08983954441583523, -1.0378029064231027, 0.3076629727825504, -0.4968868614783442, -0.06390367491100628, -0.009941041141309736, -0.06084704514836867, 0.046350946082915206, -0.04596946889977211, -0.010105169683585763, -0.08030962587205101, -0.002484736483884915]))
+        # robot_instance.set_arm_traj_position(rad_to_angle([0.00039981354744930095, 0.5540927627384994, -0.17873108631057155, -1.3960099541017499, -0.8897900984665549, -0.01925982577612745, -0.22640470042581207, -0.04114903398735155, -0.11043842597448969, -0.0783930683154715, -0.0028601566147423456, 0.11958811297207964, 0.07839165634205314, 0.0020993861246182553]))
         # robot_instance.set_arm_traj_position(rad_to_angle([0.07654063876612716, 0.3896756013744171, 0.23861315834852517, -1.2239652308027662, -1.1400463740847107, -0.3259918692717774, -0.3725070651525045, -0.012679085784232396, -0.23289101999893283, 0.016595147937879157, 0.01201667800747805, 0.01316203147402272, -0.09366555498369236, 0.012013296334962993]))
         # robot_instance.set_arm_traj_position(rad_to_angle([-0.12972190316347956, 0.2481504023530134, 0.3267348231911655, -0.9626532166944664, -1.344521948527243, -0.39998260979532796, -0.4594819781554815, -0.012665699156471774, -0.23288873404360166, 0.01659332160836448, 0.01201692164983737, 0.013545224215471703, -0.09326857302262562, 0.011636985085326798]))
         # robot_instance.set_arm_traj_position(rad_to_angle([-0.10185799358730473, 0.2565439918630544, 0.30727905668020195, -0.9988939184810046, -1.344509005358521, -0.3992203308928522, -0.46026802882319895, -0.012665024364732836, -0.23289365504503357, 0.016595872466927827, 0.01201740357167308, 0.013163451868615138, -0.09288226737091004, 0.012028623554987085])) # grab orange 200 epidodes
-        robot_instance.set_arm_traj_position(rad_to_angle( [0.02299491847040674, 0.7356761380119029, -0.2058058888967117, -1.3384070847451883, -0.738727460861821, -0.21610934770334628, -0.3385586497193961, -0.028488898797332865, -0.039101431080773394, -0.07381675320897092, 0.0005727149417722595, 0.12035521374958336, -0.13065499446613835, 0.1066232488068308]))
+        # robot_instance.set_arm_traj_position(rad_to_angle([0.02299491847040674, 0.7356761380119029, -0.2058058888967117, -1.3384070847451883, -0.738727460861821, -0.21610934770334628, -0.3385586497193961, -0.028488898797332865, -0.039101431080773394, -0.07381675320897092, 0.0005727149417722595, 0.12035521374958336, -0.13065499446613835, 0.1066232488068308]))
+        # robot_instance.set_arm_traj_position(rad_to_angle([-0.15234199058280307, 0.42858871732080445, -0.15011044017818556, -1.1388954345094118, -0.7646664189405207, -0.1932149199683684, -0.10624037349072653, -0.03986432507749732, -0.11539691753745689, -0.07381457661561465, 0.007057484660117501, 0.12378863340748747, 0.07686901400696791, -0.002482038396792682])) # juice2
+        # data=np.array([0.1714 ,0.3387 ,0.1458,-0.12442747380723607 ,0.05770184847121691 ,0.0334046233389721])
+        # msg = Float32MultiArray()
+        # msg.data = data.tolist()
+        # eef_pub.publish(msg)
+        # rospy.loginfo("Publishing: %s", msg.data)
         call_control_end_hand_service(left_hand_position=list(map(int, GRIPPER_OPEN_STATE[1:-1].split(", ")))[:6], right_hand_position=[0, 0, 0, 0, 0, 0])
     # create policy functions
     def sample_actions(
@@ -315,8 +340,8 @@ def main(_):
         #
         #====================
         from PIL import Image
-        # img=Image.open("/home/lab/hx/ICCUB_ws/src/octo/examples/last_pic/pick_up_something_2024-08-10-21-29-43_last_img.png") # fruit last img
-        img=Image.open("/home/lab/hx/ICCUB_ws/src/octo/examples/last_pic/pick_up_something_2024-08-13-20-19-56_last_img.png") # juice last img
+        # img=Image.open("/home/lab/hx/wrc_implement_ws/src/octo/examples_implement/last_pic/juice2.png") # juice last img
+        img=Image.open("/home/lab/hx/wrc_implement_ws/src/octo/examples_implement/last_pic/pick_up_something_2024-08-13-20-19-56_last_img.png") # juice last img
         # goal_image01=img.resize((256,256))
         
         goal_image01=cv2.resize(np.array(img),(256,256))
@@ -349,6 +374,14 @@ def main(_):
         # do rollout
         #
         #====================
+        complete_flag=False
+        # TODO
+        end_pos_xyz = [0.2310579605074525, 0.29336333700304773, 0.10249756455136928]
+        end_pos_xyzw = [0.25442030602349114, -0.2917210721829144, -0.7379420334220677, 0.5528206573892368]
+
+        ready_pos_xyz = [0.15882955083332423, 0.34359777949419285, 0.12825848309079024]
+        ready_pos_xyzw = [0.25442030602349114, -0.2917210721829144, -0.7379420334220677, 0.5528206573892368]
+        
         action_proprio_metadata=model.dataset_statistics["proprio"]
         last_tstep = time.time()
         while ts < FLAGS.num_timesteps:
@@ -381,6 +414,7 @@ def main(_):
                     if TEST_MODE:
                         cur_cmd_eef=np.array([0.5,0.5,0.5,0.5,0.5,0.5])
                     if not TEST_MODE and ts==0:
+                        time.sleep(0.1)
                         cur_cmd_eef=state_eef
                     else:
                         cur_cmd_eef=cmd_eef
@@ -388,13 +422,14 @@ def main(_):
                     data=cur_cmd_eef+l_arm_delte_eef
                     print("cur_cmd_eef=",cmd_eef,"\ndelta_eef",l_arm_delte_eef,"\nhand_state=",hand_state)
                     print("data=",data)
+                    msg = Float32MultiArray()
                     msg.data = data.tolist()
                     if not TEST_MODE:
                         # perform environment step
                         start_time = time.time()
                         eef_pub.publish(msg)
                         rospy.loginfo("Publishing: %s", msg.data)
-                        if hand_state>0.8:
+                        if hand_state>0.5:
                             call_control_end_hand_service(left_hand_position=list(map(int, GRIPPER_CLOSE_STATE[1:-1].split(", ")))[:6], right_hand_position=[0, 0, 0, 0, 0, 0])
                         else:
                             call_control_end_hand_service(left_hand_position=list(map(int, GRIPPER_OPEN_STATE[1:-1].split(", ")))[:6], right_hand_position=[0, 0, 0, 0, 0, 0])
@@ -402,6 +437,29 @@ def main(_):
                     
                         print(ts,"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n")
                         ts += 1
+
+                    complete_pos=quat_pose_to_euler(end_pos_xyz,end_pos_xyzw)
+                    # 如果最后的机器人state_eef的xyz在以complete_pos的xyz为中心的0.017的立方体范围内，就立即运行到指定位置
+                #     if ts>200 and np.linalg.norm(state_eef[:3]-complete_pos[:3])<0.03:
+                #         complete_flag=True
+                #         break
+                # if complete_flag:
+                #     # go to ready pos
+                #     # TODO
+                #     msg = Float32MultiArray()
+                #     ready_pose=quat_pose_to_euler(ready_pos_xyz,ready_pos_xyzw)
+                #     msg.data = ready_pose.tolist()
+                #     eef_pub.publish(msg)
+                #     rospy.loginfo("Publishing: %s", msg.data)
+                #     time.sleep(1)
+                #     my_selection = click.prompt(
+                #         "Keep on or Stop?", type=click.Choice(["go", "stop"]))   
+                #     if my_selection == "stop":
+                #         break
+                #     else:
+                #         complete_flag=False
+                #         continue
+
                 print("inner loop_time: ", time.time() - loot_time)
                     
         print("done")

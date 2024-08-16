@@ -8,11 +8,14 @@
             "name": "Python 调试程序: 当前文件",
             "type": "debugpy",
             "request": "launch",
-            "program": "/home/lab/hx/ICCUB_ws/src/octo/examples/04_eval_finetuned_on_kuavo.py",
+            "program": "/home/lab/hx/wrc_implement_ws/src/octo/examples_implement/04_eval_finetuned_on_kuavo.py",
             "console": "integratedTerminal",
             "args": [
+                // "--checkpoint_weights_path=/media/lab/PortableSSD/ckpt/shenzhen/WRC_juice2_with_proprio",
+                // "--checkpoint_weights_path=/media/lab/PortableSSD/ckpt/shenzhen/WRC_Juice2_noProprio_20240815_010059",
                 "--checkpoint_weights_path=/media/lab/PortableSSD/ckpt/shenzhen/WRC_juice/Grab_Orange_withProprio_2window_20240814_000812",
-                // "--start_traj_txt_path=/home/lab/hx/traj_add.txt",
+                // "--start_traj_txt_path=/home/lab/hx/traj_add.txt",s
+                // "--checkpoint_step",
                 "--window_size=1",
                 "--proprio=False",
                 "--show_image=False",
